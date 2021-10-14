@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- All html in container is written in the textarea -->
+
+<div class="container">
+<div class="html-container">
+  <p>Best paragraph ever</p>
+  <div class="class">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet varius metus, ut ornare elit. Donec et auctor est, at viverra lacus. Cras in mauris congue, interdum enim ut, hendrerit nulla. Nunc turpis metus, egestas non tellus ac, mollis pharetra lorem. Fusce semper lacus et tristique vehi
+  </div>
+</div>
+  <p  class="html-viewer"></p>
+  </div>
+<script type="text/javascript">
+(function($){
+  var xml="<Service><Text>something</Text><Service>"
+  $('.html-viewer').text(xml);
+})(jQuery);
+</script>
+</body>
+</html>
